@@ -1,0 +1,5 @@
+name: Run sign in mopnday
+
+on:  
+  schedule:
+    - cron: '0 9 * * 1'  # every day at midnight
